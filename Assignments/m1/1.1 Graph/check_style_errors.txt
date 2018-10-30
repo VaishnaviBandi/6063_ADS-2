@@ -31,28 +31,21 @@ Audit done.
 Checkstyle ends with 28 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:3:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:4:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:5:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:7: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:8:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:9:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:10:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:11:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:12:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:13:6: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:28:6: Class 'Graphs' looks like designed for extension (can be subclassed), but the method 'vertex' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Graphs' final or making the method 'vertex' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:28:6: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:31:6: Class 'Graphs' looks like designed for extension (can be subclassed), but the method 'edge' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Graphs' final or making the method 'edge' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:31:6: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:34:5: Class 'Graphs' looks like designed for extension (can be subclassed), but the method 'addEdge' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Graphs' final or making the method 'addEdge' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:34:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:44:5: Class 'Graphs' looks like designed for extension (can be subclassed), but the method 'addvertices' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Graphs' final or making the method 'addvertices' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:44:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:48:6: Class 'Graphs' looks like designed for extension (can be subclassed), but the method 'toString' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Graphs' final or making the method 'toString' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Graphs.java:48:6: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 21 errors.
+Checkstyle ends with 1 errors.
+Starting audit...
+[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Matrix.java:3:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Matrix.java:4:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Matrix.java:5:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Matrix.java:6:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Matrix.java:7:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Matrix.java:8:6: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Matrix.java:19:7: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Matrix.java:22:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Matrix.java:34:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Matrix.java:37:2: Missing a Javadoc comment. [JavadocMethod]
+Audit done.
+Checkstyle ends with 10 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\6063_ADS-2\Assignments\m1\1.1 Graph\Solution.java:1: Missing a Javadoc comment. [JavadocType]
