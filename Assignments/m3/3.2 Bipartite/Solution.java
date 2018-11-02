@@ -1,10 +1,36 @@
 import java.util.Scanner;
+/**
+ *the class for bipartite.
+ */
 class Bipartite {
+    /**
+     *the marked array to denote the.
+     * vertex is visited or not.
+     */
     private boolean[] marked;
+    /**
+     *the array to store color.
+     */
     private boolean[] color;
+    /**
+     *the variable to decide the.
+     *graph is bapartite
+     */
     private boolean flag = false;
+    /**
+     *edge to method to consider the.
+     *vertices to which they are connected.
+     */
     private int[] edgeTo;
+    /**
+     *stack for storing the path.
+     */
     private Stack<Integer> stack;
+    /**
+     *constructor is to initialize.
+     *
+     * @param      graph  The graph
+     */
     Bipartite(final Graph graph) {
         flag = true;
         marked = new boolean[graph.vertices()];
@@ -16,6 +42,13 @@ class Bipartite {
             }
         }
     }
+    /**
+     *the depth first search is performed.
+     *time complexity is O(E)
+     *E is the number of edges.
+     * @param      graph   The graph
+     * @param      vertex  The vertex
+     */
     private void dfs(final Graph graph, final int vertex) {
         marked[vertex] = true;
         for (int each : graph.adj(vertex)) {
@@ -37,13 +70,29 @@ class Bipartite {
             }
         }
     }
+    /**
+     *the method is to check whether it is bipartite or.
+     *not
+     * @return     True if bipartite, False otherwise.
+     */
     public boolean isBipartite() {
         return flag;
     }
 }
+/**
+ *the class for solution.
+ */
 final class Solution {
+    /**
+     *an empty constructor.
+     */
     private Solution() {
     }
+    /**
+     *the main to read the input.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         Graph obj = new Graph(scan);
