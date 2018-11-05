@@ -3,11 +3,22 @@ import java.util.Scanner;
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.io.FileNotFoundException;
+/**
+ * Class for solution.
+ */
 final class Solution {
-
+    /**
+     * Constructs the object.
+     */
     private Solution() {
 
     }
+    /**
+     * thie main method performs the operations.
+     *
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         int count = 0;
         Scanner scan = new Scanner(System.in);
@@ -71,20 +82,40 @@ final class Solution {
     }
 
 }
+/**
+ * Class for synset.
+ */
 class Synset {
-
+    /**
+     * Digraph object.
+     */
     private Digraph graph;
-    
+    /**
+     * hashmap with interger as key and array list of strings
+     * values.
+     */
     private HashMap<Integer, ArrayList<String>> map;
-
+    /**
+     * hashmap with strings as key and array list of integers
+     * values.
+     */
     private HashMap<String, ArrayList<Integer>> revmap;
-    
+    /**
+     * Constructs the object.
+     */
     Synset() {
         map = new HashMap<Integer,
         ArrayList<String>>();
         revmap = new HashMap<String,
         ArrayList<Integer>>();
     }
+    /**
+     * Adds a synset.
+     * Time complexity of this method is O(V)
+     * V is number of vertices.
+     *
+     * @param      file1  The file 1
+     */
     public void addSynset(final String file1) {
         try {
             File file = new File("Files");
@@ -131,7 +162,17 @@ class Synset {
             System.out.println(e);
         }
     }
-
+    /**
+     * Adds a hypenym.
+     * time complexity of this method is
+     * O(E).
+     * E is number of edges.
+     *
+     *
+     * @param      file2  The file 2
+     *
+     * @return     the directed graph object.
+     */
     public Digraph addHypenym(final String file2) {
         try {
             File files = new File("Files");
@@ -158,10 +199,21 @@ class Synset {
         }
         return graph;
     }
-
+    /**
+     * returns the hash map of integer and array list of
+     * strings.
+     *
+     * @return    returns hash map.
+     */
     public HashMap<Integer, ArrayList<String>> getMap() {
         return map;
     }
+    /**
+     * returns the hash map of Strings and array list of
+     * integers.
+     *
+     * @return     returns hash map.
+     */
     public HashMap<String, ArrayList<Integer>> getRevmap() {
         return revmap;
     }
