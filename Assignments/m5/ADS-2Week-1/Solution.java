@@ -1,23 +1,94 @@
 import java.util.Scanner;
-import java.io.File;
 import java.util.Arrays;
 class PageRank {
-	PageRank(Digraph dg) {
 
+	double[] pageRank;
+	Digraph graph;
+	double[] prevRank;
+	Digraph revGraph;
+
+	PageRank(final Digraph g) {
+		
+		graph = g;
+		int vertices = graph.V();
+		pageRank = new double[vertices];
+		prevRank = new double[vertices];
+		for (int i = 0; i < vertices; i++) {
+			pageRank[i] = 1.0 / vertices;
+		}
+		for (int i = 0; i < vertices; i++) {
+			if (graph.outdegree(i) == 0) {
+				for (int j = 0; j < vertices; j++) {
+					if (j != i) {
+						graph.addEdge(i, j);
+					}
+				}
+			}
+		}
+		for (int i = 0; i < 1000; i++) {
+			for (int j = 0; j < vertices; j++) {
+				getPR(j);
+			}
+			pageRank = Arrays.copyOf(prevRank, prevRank.length);
+		}
+
+	}
+
+	public double getPR(final int vertex) {
+		double sum = 0;
+		if (graph.indegree(vertex) == 0) {
+			prevRank[vertex] = 0;
+			return prevRank[vertex];
+		}
+		for (int v : graph.reverse().adj(vertex)) {
+			sum += (pageRank[v] / graph.outdegree(v));
+		}
+		prevRank[vertex] = sum;
+		return prevRank[vertex];
+	}
+
+	public void add() {
+		for (int i = 0; i < 1000; i++) {
+			for (int j = 0; j < graph.V(); j++) {
+				prevRank[j] = pageRank[j];
+				pageRank[j] = getPR(j);
+			}
+		}
+	}
+
+	public String toString() {
+		String str = "";
+		for (int i = 0; i < graph.V(); i++) {
+			str += i + " - " + pageRank[i] + "\n";
+		}
+		return str;
 	}
 
 }
 
 class WebSearch {
-	WebSearch(PageRank rk, String name) {
-
-	}
 
 }
 
 public class Solution {
 
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		int vertices = Integer.parseInt(scan.nextLine());
+		Digraph graph = new Digraph(vertices);
+		for (int i = 0; i < vertices; i++) {
+			String[] tokens = scan.nextLine().split(" ");
+			for (int j = 1; j < tokens.length; j++) {
+				graph.addEdge(Integer.parseInt(tokens[0]),
+				              Integer.parseInt(tokens[j]));
+			}
+		}
+		System.out.println(graph);
+		PageRank pageObj = new PageRank(graph);
+		System.out.println(pageObj.toString());
+		String file = "WebContent.txt";
+
 		// read the first line of the input to get the number of vertices
 
 		// iterate count of vertices times
@@ -32,45 +103,14 @@ public class Solution {
 		// This part is only for the final test case
 
 		// File path to the web content
-		String file = "WebContent.txt";
 
 		// instantiate web search object
 		// and pass the page rank object and the file path to the constructor
+
 		// read the search queries from std in
 		// remove the q= prefix and extract the search word
 		// pass the word to iAmFeelingLucky method of web search
 		// print the return value of iAmFeelingLucky
 
-
-		Scanner sc = new Scanner(System.in);
-		int v = Integer.parseInt(sc.nextLine());
-		int[][] graph = new int[v][v];
-		int y, x;
-		int z = v;
-		int e = 0;
-		while (v > 0) {
-			v--;
-			y = 0;
-			x = 0;
-			String[] line = sc.nextLine().split(" ");
-			y = Integer.parseInt(line[0]);
-			for (int i = 1; i < line.length; i++) {
-				x = Integer.parseInt(line[i]);
-				graph[y][x] = 1;
-				e++;
-
-			}
-			System.out.println(z + " vertices, " + e + " edges ");
-			for (int i = 0; i < x; i++) {
-				System.out.print(i + ":");
-				for (int j = z - 1; j >= 0; j--) {
-					if (graph[i][j] == 1) {
-						System.out.print(" " + j);
-					}
-				}
-				System.out.println();
-			}
-
-		}
 	}
 }
