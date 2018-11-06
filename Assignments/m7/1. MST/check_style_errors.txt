@@ -70,9 +70,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
-[ERROR] H:\6063_ADS-2\Assignments\m7\1. MST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m7\1. MST\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\6063_ADS-2\Assignments\m7\1. MST\Stack.java:14: Line has trailing spaces. [RegexpSingleline]
