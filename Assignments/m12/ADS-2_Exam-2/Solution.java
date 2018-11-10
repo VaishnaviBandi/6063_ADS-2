@@ -6,12 +6,11 @@ public class Solution {
 		int vertices = Integer.parseInt(scan.nextLine());
 		int edges = Integer.parseInt(scan.nextLine());
 		EdgeWeightedGraph graph = new EdgeWeightedGraph(vertices);
-		for (int i = 0; i < edges; i++) {
+		for(int i = 0;i<edges;i++){
 			String[] edgeValues = scan.nextLine().split(" ");
 			graph.addEdge(new Edge(Integer.parseInt(edgeValues[0]), Integer.parseInt(edgeValues[1]),
-			                       Double.parseDouble(edgeValues[2])));
+				Double.parseDouble(edgeValues[2])));
 		}
-
 
 		// Self loops are not allowed...
 		// Parallel Edges are allowed...
@@ -31,6 +30,13 @@ public class Solution {
 			// First is the source and second is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			String[] path = scan.nextLine().split(" ");
+			DijkstraSP obj = new DijkstraSP(graph, Integer.parseInt(path[0]));
+			if(obj.hasPathTo(Integer.parseInt(path[1]))){
+				System.out.println(obj.distTo(Integer.parseInt(path[1])));
+			} else{
+				System.out.println("No Path Found.");
+			}
 			break;
 
 		case "ViaPaths":

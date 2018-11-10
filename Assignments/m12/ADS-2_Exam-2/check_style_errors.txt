@@ -93,13 +93,24 @@ Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:4:33: Parameter args should be final. [FinalParameters]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:9:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:9:31: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:9:32: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:9:33: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:9:39: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:9:43: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:11: Line is longer than 80 characters (found 112). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:12: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:30: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:37: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:38: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:29: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:34: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:35:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:35:69: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:36: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:37:31: 'else' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:37:31: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:43: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:44: Line is longer than 80 characters (found 110). [LineLength]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 22 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
