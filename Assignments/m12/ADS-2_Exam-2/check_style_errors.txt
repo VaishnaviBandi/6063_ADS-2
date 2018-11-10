@@ -81,7 +81,6 @@ Starting audit...
 Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:2: Missing a Javadoc comment. [JavadocType]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
@@ -94,7 +93,7 @@ Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:61: Line is longer than 80 characters (found 91). [LineLength]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:63: Line is longer than 80 characters (found 86). [LineLength]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 11 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
