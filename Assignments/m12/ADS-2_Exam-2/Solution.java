@@ -11,6 +11,12 @@ public class Solution {
 			graph.addEdge(new Edge(Integer.parseInt(edgeValues[0]), Integer.parseInt(edgeValues[1]),
 				Double.parseDouble(edgeValues[2])));
 		}
+
+		// Self loops are not allowed... 
+		// Parallel Edges are allowed... 
+		// Take the Graph input here...
+
+
 		String caseToGo = scan.nextLine();
 		switch (caseToGo) {
 		case "Graph":
@@ -37,6 +43,14 @@ public class Solution {
 			// third is the destination.
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
+			String[] viaPath = scan.nextLine().split(" ");
+			DijkstraSP obj1 = new DijkstraSP(graph, Integer.parseInt(viaPath[0]));
+			DijkstraSP obj2 = new DijkstraSP(graph, Integer.parseInt(viaPath[1]));
+			if(obj1.hasPathTo(Integer.parseInt(viaPath[1]))&&obj2.hasPathTo(Integer.parseInt(viaPath[2]))){
+				System.out.println(obj1.pathTo(Integer.parseInt(viaPath[1]))+" "+obj2.pathTo(Integer.parseInt(viaPath[2])));
+			} else{
+				System.out.println("No Path Found.");
+			}
 			break;
 
 		default:
