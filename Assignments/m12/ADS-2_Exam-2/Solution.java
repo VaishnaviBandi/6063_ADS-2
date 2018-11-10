@@ -11,19 +11,11 @@ public class Solution {
 			graph.addEdge(new Edge(Integer.parseInt(edgeValues[0]), Integer.parseInt(edgeValues[1]),
 				Double.parseDouble(edgeValues[2])));
 		}
-
-		// Self loops are not allowed...
-		// Parallel Edges are allowed...
-		// Take the Graph input here...
-
-
-		String caseToGo = null;
+		String caseToGo = scan.nextLine();
 		switch (caseToGo) {
 		case "Graph":
-			//Print the Graph Object.
 			System.out.println(graph);
 			break;
-
 
 		case "DirectedPaths":
 			// Handle the case of DirectedPaths, where two integers are given.
