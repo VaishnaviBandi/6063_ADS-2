@@ -100,11 +100,8 @@ Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:34: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:41: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:42: Line is longer than 80 characters (found 110). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:55: Line is longer than 80 characters (found 138). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:56: Line is longer than 80 characters (found 155). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:56:98: '+' is not preceded with whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 13 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
