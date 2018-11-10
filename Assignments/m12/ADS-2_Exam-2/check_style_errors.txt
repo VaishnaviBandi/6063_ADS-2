@@ -2,22 +2,16 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\DijkstraSP.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\DijkstraSP.java:1: Missing a Javadoc comment. [JavadocType]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Edge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Edge.java:73:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:13:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:74:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:76:60: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:76:61: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Graph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Graph.java:2: Line has trailing spaces. [RegexpSingleline]
