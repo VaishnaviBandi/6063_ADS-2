@@ -29,14 +29,15 @@ public class Solution {
 			// If the path exists print the distance between them.
 			// Other wise print "No Path Found."
 			String[] path = scan.nextLine().split(" ");
-			DijkstraSP obj = new DijkstraSP(graph, Integer.parseInt(path[0]));
-			if (obj.hasPathTo(Integer.parseInt(path[1]))) {
-				System.out.println(obj.distTo(Integer.parseInt(path[1])));
-			} else {
-				System.out.println("No Path Found.");
-			}
-			break;
-
+            DijkstraSP obj = new DijkstraSP(graph, 
+            	Integer.parseInt(path[0]));
+            if (obj.hasPathTo(Integer.parseInt(path[1]))) {
+                System.out.println(obj.distTo(
+                	Integer.parseInt(path[1])));
+            } else {
+                System.out.println("No Path Found.");
+            }
+            break;
 		case "ViaPaths":
 			// Handle the case of ViaPaths, where three integers are given.
 			// First is the source and second is the via is the one where path should pass throuh.

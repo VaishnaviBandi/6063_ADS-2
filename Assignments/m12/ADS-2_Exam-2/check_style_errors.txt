@@ -96,12 +96,11 @@ Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:11: Line is longer than 80 characters (found 112). [LineLength]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:12: Line is longer than 80 characters (found 83). [LineLength]
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:27: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:32: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:34: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:41: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:42: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:32: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:42: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Solution.java:43: Line is longer than 80 characters (found 110). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
