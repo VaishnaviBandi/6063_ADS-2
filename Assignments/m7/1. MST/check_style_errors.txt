@@ -71,7 +71,3 @@ Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m7\1. MST\StdOut.java:225:37: '7.0' is a magic number. [MagicNumber]
 Audit done.
 Checkstyle ends with 62 errors.
-Starting audit...
-[ERROR] H:\6063_ADS-2\Assignments\m7\1. MST\UF.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-Audit done.
-Checkstyle ends with 1 errors.
