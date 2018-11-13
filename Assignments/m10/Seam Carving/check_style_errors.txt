@@ -267,15 +267,8 @@ Audit done.
 Checkstyle ends with 13 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\Solution.java:4: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\Solution.java:5: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\Solution.java:6:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\Solution.java:9: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\Solution.java:10:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\Solution.java:23: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\Solution.java:24:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\StdOut.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\StdOut.java:16: Line is longer than 80 characters (found 84). [LineLength]

@@ -1,12 +1,22 @@
 import java.util.Scanner;
 import java.util.Arrays;
-
+/**
+* class for solution.
+ */
 final class Solution {
-    
+    /**
+     *an empty constructor.
+     */
     private Solution() {
 
     }
-    
+    /**
+     *the method to print the energies in.
+     * grid format.
+     * time complexity is O(W * H)
+     * W is width and H is height
+     * @param      fileName  The file name
+     */
     public static void printEnergies(final String fileName) {
         Picture picture = new Picture(fileName);
         StdOut.printf("image is %d pixels wide by %d pixels high.\n",
@@ -20,7 +30,14 @@ final class Solution {
             StdOut.println();
         }
     }
-    
+    /**
+     *the method is to print the seamline.
+     * time complexity is O(W * H)
+     * W is width and H is height
+     * @param      carver     The carver
+     * @param      seam       The seam
+     * @param      direction  The direction
+     */
     public static void printSeam(final SeamCarver carver,
      final int[] seam, final boolean direction) {
         double totalSeamEnergy = 0.0;
