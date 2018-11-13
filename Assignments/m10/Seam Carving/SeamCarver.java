@@ -89,7 +89,7 @@ public class SeamCarver {
         double sum = Math.sqrt(xCoordinate + yCoordinate);
         return sum;
     }
-    /**sequence of indices for horizontal seam
+    /**sequence of indices for horizontal seam.
      *
      *time complexity is O(w*h)
      *w is the width and h is the height
@@ -145,7 +145,7 @@ public class SeamCarver {
                     nextCol] >= distTo[row][col]
                     + energy(nextCol, nextRow)) {
                     distTo[nextRow][
-                nextCol] = distTo[row][col] 
+                nextCol] = distTo[row][col]
                 + energy(nextCol, nextRow);
                     edgeTo[nextRow][nextCol] = i;
                 }
