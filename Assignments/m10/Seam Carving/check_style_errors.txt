@@ -223,20 +223,10 @@ Audit done.
 Checkstyle ends with 43 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:62:32: '1000.0' is a magic number. [MagicNumber]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:91: First sentence should end with a period. [JavadocStyle]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:102:42: '1000' is a magic number. [MagicNumber]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:144: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:146: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:154: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:177:40: '1000.0' is a magic number. [MagicNumber]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:203: First sentence should end with a period. [JavadocStyle]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:241: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:243: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:250: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:92: First sentence should end with a period. [JavadocStyle]
+[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\SeamCarver.java:148: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 3 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\ShowEnergy.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\ShowEnergy.java:5: Line has trailing spaces. [RegexpSingleline]
