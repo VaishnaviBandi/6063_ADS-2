@@ -1,9 +1,4 @@
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m13\Radix Sorts\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\6063_ADS-2\Assignments\m13\Radix Sorts\Solution.java:4: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\6063_ADS-2\Assignments\m13\Radix Sorts\Solution.java:6:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m13\Radix Sorts\Solution.java:28: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\6063_ADS-2\Assignments\m13\Radix Sorts\Solution.java:30:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m13\Radix Sorts\Solution.java:34:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 1 errors.
