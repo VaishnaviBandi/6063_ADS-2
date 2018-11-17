@@ -119,7 +119,7 @@ class T9 {
     public Iterable<String> getAllWords(String prefix) {
 
         // your code goes here
-        return null;
+        return obj.keysWithPrefix(prefix);
     }
 
     public Iterable<String> potentialWords(String t9Signature) {
