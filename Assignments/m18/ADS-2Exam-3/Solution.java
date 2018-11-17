@@ -110,7 +110,7 @@ TST obj = new TST();
 		// your code goes here
 		for (String s : st.keys()) {
 			obj.put(s, st.get(s));
-			System.out.println(s);
+			// System.out.println(s);
 		}
 		// System.out.println(s);
 }
