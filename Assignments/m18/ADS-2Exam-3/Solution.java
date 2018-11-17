@@ -112,7 +112,6 @@ class T9 {
             obj.put(s, st.get(s));
             // System.out.println(s);
         }
-
     }
 
     // get all the prefixes that match with given prefix.
@@ -130,6 +129,13 @@ class T9 {
     // return all possibilities(words), find top k with highest frequency.
     public Iterable<String> getSuggestions(Iterable<String> words, int k) {
         // your code goes here
+    	int[] one = new int[6];
+    	String[] two = new String[k];
+    	// MinPQ m = new MinPQ();
+    	for(String word : words){
+    		
+    	}
+
         return null;
     }
 
