@@ -105,16 +105,20 @@ public class Solution {
 }
 
 class T9 {
-
+TST obj = new TST();
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
-
-
-	}
+		for (String s : st.keys()) {
+			obj.put(s, st.get(s));
+			System.out.println(s);
+		}
+		// System.out.println(s);
+}
 
 	// get all the prefixes that match with given prefix.
 	public Iterable<String> getAllWords(String prefix) {
 		// your code goes here
+		
 		return null;
 	}
 
