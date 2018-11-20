@@ -1007,3 +1007,4 @@ public class BoggleGame extends JFrame {
     }
 
 }
+

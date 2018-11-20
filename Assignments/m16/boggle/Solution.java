@@ -1,17 +1,14 @@
 import java.util.Arrays;
-
 /**
  * Class for solution.
  */
 public class Solution {
-
 	/**
 	 * Constructs the object.
 	 */
 	private Solution() {
 		// empty constructor
 	}
-
 	/**
 	 * Main method.
 	 *
@@ -24,12 +21,12 @@ public class Solution {
 			String dictionaryName = StdIn.readLine();
 			In in = new In("/Files/" + dictionaryName);
 			String[] dictionary = in.readAllStrings();
-			BoggleSolver solver = new BoggleSolver(dictionary);
+	BoggleSolver solver = new BoggleSolver(dictionary);
 
 			String boardName = StdIn.readLine();
-			BoggleBoard board = new BoggleBoard("/Files/" + boardName);
+	BoggleBoard board = new BoggleBoard("/Files/" + boardName);
 			int score = 0;
-			for (String word : solver.getAllValidWords(board)) {
+	for (String word : solver.getAllValidWords(board)) {
 				score += solver.scoreOf(word);
 			}
 			StdOut.println("Score = " + score);
@@ -38,12 +35,12 @@ public class Solution {
 		default:
 			try {
 				dictionaryName = StdIn.readLine();
-				in = new In("/Files/" + dictionaryName);
+			in = new In("/Files/" + dictionaryName);
 				dictionary = in.readAllStrings();
 				solver = new BoggleSolver(dictionary);
 				board = null;
 				score = 0;
-				for (String word : solver.getAllValidWords(board)) {
+for (String word : solver.getAllValidWords(board)) {
 					score += solver.scoreOf(word);
 				}
 				StdOut.println("Score = " + score);
