@@ -503,19 +503,10 @@ Audit done.
 Checkstyle ends with 465 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:4: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:7:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:12:5: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'getAllValidWords' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'getAllValidWords' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:12:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:22:5: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'dfs' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'dfs' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:22:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:68: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:69:5: Class 'BoggleSolver' looks like designed for extension (can be subclassed), but the method 'scoreOf' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'BoggleSolver' final or making the method 'scoreOf' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\BoggleSolver.java:69:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
+[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\In.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\In.java:28: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\In.java:33: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\In.java:35: Line has trailing spaces. [RegexpSingleline]
@@ -658,7 +649,7 @@ Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\In.java:759: Line is longer than 80 characters (found 106). [LineLength]
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\In.java:767:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 Audit done.
-Checkstyle ends with 141 errors.
+Checkstyle ends with 142 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Queue.java:5: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Queue.java:9: Line has trailing spaces. [RegexpSingleline]
@@ -698,15 +689,12 @@ Checkstyle ends with 33 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:2: Class Solution should be declared as final. [FinalClass]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:17: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:33: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:6: Class Solution should be declared as final. [FinalClass]
+[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:30: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:46: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 6 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\StdIn.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\StdIn.java:27: Line is longer than 80 characters (found 84). [LineLength]
@@ -1076,28 +1064,5 @@ Audit done.
 Checkstyle ends with 183 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:2: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:3:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:5: Missing a Javadoc comment. [JavadocType]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:6:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:7:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:9:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:10:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:11:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:13:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:16:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:19:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:26: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:27:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:43: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:44:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:50: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:51:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:71: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:72:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:84: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:85:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\TST.java:100:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 24 errors.
+Checkstyle ends with 1 errors.

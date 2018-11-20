@@ -1,14 +1,31 @@
 import java.util.TreeSet;
 import java.util.Set;
-
+/**
+ * Class for boggle solver.
+ */
 public class BoggleSolver {
-
+    /**
+     * TST object.
+     */
     private TST<Integer> tst = new TST<>();
+    /**
+     * Constructs the object.
+     * complexity O(n) n is the length of array.
+     * @param      dictionary  The dictionary
+     */
     public BoggleSolver(final String[] dictionary) {
         for (String each : dictionary) {
             tst.put(each, 1);
         }
     }
+    /**
+     * Gets all valid words.
+     * complexity O(V + E) v is the
+     * no of nodes and E is the number of adacent vertices.
+     * @param      board  The board
+     *
+     * @return     All valid words.
+     */
     public Iterable<String> getAllValidWords(final BoggleBoard board) {
         boolean[][] visit = new boolean[board.rows()][board.cols()];
         TreeSet<String> words = new TreeSet<>();
@@ -19,6 +36,17 @@ public class BoggleSolver {
         }
         return words;
     }
+    /**
+     * depth first search method.
+     * complexity O(V + E) v is the
+     * no of nodes and E is the number of adacent vertices.
+     * @param      board   The board
+     * @param      one     One
+     * @param      two     Two
+     * @param      words   The words
+     * @param      visit   The visit
+     * @param      prefix  The prefix
+     */
     public void dfs(final BoggleBoard board,
         final int one, final int two, final Set<String> words,
         final boolean[][] visit, final String prefix) {
@@ -65,7 +93,13 @@ public class BoggleSolver {
         }
         visit[one][two] = false;
     }
-   
+    /**
+     * fnds the score of the word.
+     * complexity O(1)
+     * @param      one   One
+     *
+     * @return     int value.
+     */
     public int scoreOf(final String one) {
         if (tst.contains(one)) {
             if (one.length() <  (2 + 1)) {
