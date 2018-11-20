@@ -652,11 +652,9 @@ Starting audit...
 Audit done.
 Checkstyle ends with 33 errors.
 Starting audit...
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:1:8: Unused import - java.util.Arrays. [UnusedImports]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:5: Class Solution should be declared as final. [FinalClass]
-[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] H:\6063_ADS-2\Assignments\m16\boggle\Solution.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\StdIn.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\6063_ADS-2\Assignments\m16\boggle\StdIn.java:27: Line is longer than 80 characters (found 84). [LineLength]
