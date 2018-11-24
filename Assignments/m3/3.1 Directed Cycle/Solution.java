@@ -154,7 +154,7 @@ class DiGraph {
     }
     /**
      * returns the number of vetices.
-     *
+     * Time complexity is O(1).
      * @return     returns the number of vetices.
      */
     public int vertices() {
@@ -162,7 +162,7 @@ class DiGraph {
     }
     /**
      * returns the number of edges.
-     *
+     * Time complexity is O(1).
      * @return     returns the number of edges.
      */
     public int edges() {

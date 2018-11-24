@@ -61,7 +61,7 @@ public class Bag<Item> implements Iterable<Item> {
 
     /**
      * Determines if empty.
-     *
+     * Time complexity is O(1).
      * @return     True if empty, False otherwise.
      */
     public boolean isEmpty() {
@@ -70,7 +70,7 @@ public class Bag<Item> implements Iterable<Item> {
 
     /**
      * returns the size of stack.
-     *
+     * Time complexity is O(1).
      * @return     returns the size of stack
      */
     public int size() {
@@ -80,7 +80,6 @@ public class Bag<Item> implements Iterable<Item> {
     /**
      * this method adds node to the bag.
      * Time complexity is O(1).
-     *
      * @param      item  The item
      */
     public void add(final Item item) {
@@ -97,8 +96,7 @@ public class Bag<Item> implements Iterable<Item> {
      * items in the bag.
      * Time complexity of this method is O(1)
      * it returns elements in the bag.
-     *
-     *
+     * Time complexity is O(N).
      * @return     Return an iterator that iterates
      *             over the items in the bag.
      */
@@ -115,7 +113,7 @@ public class Bag<Item> implements Iterable<Item> {
         private Node current = first;
         /**
          * Determines if it has next.
-         *
+         * Time complexity is O(1).
          * @return     True if has next,
          *             False otherwise.
          */
@@ -124,6 +122,7 @@ public class Bag<Item> implements Iterable<Item> {
         }
         /**
          * this method removes elements.
+         * Time complexity is O(1).
          */
         public void remove() {
             throw new UnsupportedOperationException();
@@ -132,7 +131,6 @@ public class Bag<Item> implements Iterable<Item> {
          * this method will return the item of
          * that current node.
          * Time complexity is O(1).
-         *
          * @return     returns the current node item.
          */
         public Item next() {
