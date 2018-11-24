@@ -39,6 +39,7 @@ public class Graph {
     /**
      * Return the number of vertices in the graph.
      * @return     vertices  {Integer}
+     * Time complexity is O(1)
      */
     public int vertices() {
         return vertices;
@@ -47,6 +48,7 @@ public class Graph {
     /**
      * Return the number of edges in the graph.
      * @return    edges  {Integer}
+     * Time complexity is O(1).
      */
     public int edges() {
         return edges;

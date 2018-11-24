@@ -47,7 +47,7 @@ public class Bag<Item> implements Iterable<Item> {
     }
     /**
      * { function_description }.
-     *
+     * Time complexity is O(1).
      * @return     { description_of_the_return_value }
      */
     public int size() {
@@ -55,7 +55,7 @@ public class Bag<Item> implements Iterable<Item> {
     }
     /**
      * { function_description }.
-     *
+     * Time complexity is O(1).
      * @param      item  The item
      */
     public void add(final Item item) {
@@ -67,7 +67,7 @@ public class Bag<Item> implements Iterable<Item> {
     }
     /**
      * { function_description }.
-     *
+ * Time complexity is O(N).
      * @return     { description_of_the_return_value }
      */
     public Iterator<Item> iterator()  {
@@ -84,7 +84,7 @@ public class Bag<Item> implements Iterable<Item> {
         private Node current = first;
         /**
          * Determines if it has next.
-         *
+         * Time complexity is O(1).
          * @return     True if has next, False otherwise.
          */
         public boolean hasNext()  {
@@ -92,13 +92,14 @@ public class Bag<Item> implements Iterable<Item> {
         }
         /**
          * { function_description }.
+         * Time complexity is O(1).
          */
         public void remove()      {
             throw new UnsupportedOperationException();
         }
         /**
          * { function_description }.
-         *
+         * Time complexity is O(1).
          * @return     { description_of_the_return_value }
          */
         public Item next() {

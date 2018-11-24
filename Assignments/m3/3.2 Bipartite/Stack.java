@@ -39,7 +39,7 @@ public class Stack<Item> {
 
     /**
      * Returns true if this stack is empty.
-     *
+     * Time complexity is O(1).
      * @return true if this stack is empty; false otherwise
      */
     public boolean isEmpty() {
@@ -48,7 +48,7 @@ public class Stack<Item> {
 
     /**
      * Returns the number of items in this stack.
-     *
+     * Time complexity is O(1)
      * @return the number of items in this stack
      */
     public int size() {
@@ -70,7 +70,7 @@ public class Stack<Item> {
 
     /**
      * Removes and returns the item most recently added to this stack.
-     *
+     * Time complexity is O(1).
      * @return the item most recently added
      *
      */
@@ -83,7 +83,7 @@ public class Stack<Item> {
 
     /**
      * Returns (but does not remove) the item most recently added to this stack.
-     *
+     * Time complexity is O(1).
      * @return the item most recently added to this stack
      *
      */
