@@ -5,6 +5,4 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] H:\6063_ADS-2\Assignments\m10\Seam Carving\StdOut.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
