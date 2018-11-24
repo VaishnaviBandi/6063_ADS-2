@@ -53,6 +53,7 @@ public class Stack<Item> implements Iterable<Item> {
     }
 
    /**
+     * time complexity in average case is 1.
      * Add the item to the stack.
      * @param item item.
      */
@@ -67,6 +68,7 @@ public class Stack<Item> implements Iterable<Item> {
    /**
      * Delete and return the item most recently added to the stack.
      * Throw an exception if no such item exists because the stack is empty.
+     * time complexity in average case is 1.
      * @return item most recently added item to the stack.
      */
     public Item pop() {
@@ -129,7 +131,7 @@ public class Stack<Item> implements Iterable<Item> {
         }
         /**
          * next method.
-         *
+
          * @return returns item.
          */
         public Item next() {

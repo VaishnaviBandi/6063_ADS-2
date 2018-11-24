@@ -15,8 +15,7 @@ final class Solution {
     }
     /**
      * thie main method performs the operations.
-     *
-     *
+     * time complexity for the main method is 1.
      * @param      args  The arguments
      */
     public static void main(final String[] args) {

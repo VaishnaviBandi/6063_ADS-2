@@ -22,6 +22,7 @@ public class BreadthFirstDirectedPaths {
     /**
      * Computes the shortest path from
      *  {@code s} and every other vertex in graph {@code G}.
+     * time complexity is 1 in avg case.
      * @param g the digraph
      * @param s the source vertex
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
@@ -83,7 +84,7 @@ public class BreadthFirstDirectedPaths {
     }
     /**
      * bfs method.
-     *
+     * time complexity is 1 in avg case.
      * @param      g  digraph.
      * @param      sources  The sources
      */
@@ -109,7 +110,7 @@ public class BreadthFirstDirectedPaths {
     }
     /**
      * Gets the distance.
-     *
+     * time complexity is 1 in avg case.
      * @param      vertex  The vertex
      *
      * @return     The distance.
