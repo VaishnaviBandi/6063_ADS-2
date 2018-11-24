@@ -1,4 +1,4 @@
-// package edu.princeton.cs.algs4;
+      // package edu.princeton.cs.algs4;
 
 /**
  *  The {@code DepthFirstPaths} class represents a data type for finding
@@ -28,6 +28,7 @@ class DepthFirstPaths {
      * Computes a path between {@code s} and every other vertex in graph {@code G}.
      * @param G the graph
      * @param s the source vertex
+     * Time Complexity is 2E + V
      * @throws IllegalArgumentException unless {@code 0 <= s < V}
      */
     public DepthFirstPaths(Graph G, int s) {
@@ -39,6 +40,7 @@ class DepthFirstPaths {
     }
 
     // depth first search from v
+    //Time Complexity is 2E + V
     private void dfs(Graph G, int v) {
         marked[v] = true;
         for (int w : G.adj(v)) {

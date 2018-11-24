@@ -81,6 +81,7 @@ public class Bag<Item> implements Iterable<Item> {
     /**
       * Return an iterator that iterates over the.
       *items in the bag.
+      *Time complexity is O(N)
       * @return iterator.
       */
     public Iterator<Item> iterator()  {

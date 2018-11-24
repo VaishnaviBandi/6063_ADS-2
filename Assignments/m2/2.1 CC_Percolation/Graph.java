@@ -142,7 +142,7 @@ class Graph {
 
     /**
      * Returns the number of vertices in this graph.
-     *
+     * Time complexity is O(1)
      * @return the number of vertices in this graph
      */
     public int V() {
@@ -151,7 +151,7 @@ class Graph {
 
     /**
      * Returns the number of edges in this graph.
-     *
+     * Time complexity is O(1)
      * @return the number of edges in this graph
      */
     public int E() {
@@ -186,6 +186,7 @@ class Graph {
      * @param  v the vertex
      * @return the vertices adjacent to vertex {@code v}, as an iterable
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
+     * Time Complexity is 1
      */
     public Iterable<Integer> adj(int v) {
         validateVertex(v);
@@ -193,8 +194,7 @@ class Graph {
     }
 
     /**
-     * Returns the degree of vertex {@code v}.
-     *
+     * Returns the degree of vertex {@code v}
      * @param  v the vertex
      * @return the degree of vertex {@code v}
      * @throws IllegalArgumentException unless {@code 0 <= v < V}
@@ -207,7 +207,7 @@ class Graph {
 
     /**
      * Returns a string representation of this graph.
-     *
+     * Time complexity is O(N ^ 2)
      * @return the number of vertices <em>V</em>, followed by the number of edges <em>E</em>,
      *         followed by the <em>V</em> adjacency lists
      */
