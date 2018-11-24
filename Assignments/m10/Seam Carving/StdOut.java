@@ -51,7 +51,7 @@ public final class StdOut {
     }
     /**
      * Prints an object to this output stream and then terminates the line.
-     *
+      * Time complexity is O(1).
      * @param x the object to print
      */
     public static void println(final Object x) {
@@ -59,7 +59,7 @@ public final class StdOut {
     }
     /**
      * Prints a boolean to standard output and then terminates the line.
-     *
+      * Time complexity is O(1).
      * @param x the boolean to print
      */
     public static void println(final boolean x) {
@@ -67,7 +67,7 @@ public final class StdOut {
     }
     /**
      * Prints a character to standard output and then terminates the line.
-     *
+      * Time complexity is O(1).
      * @param x the character to print
      */
     public static void println(final char x) {
@@ -75,7 +75,7 @@ public final class StdOut {
     }
     /**
      * Prints a double to standard output and then terminates the line.
-     *
+      * Time complexity is O(1).
      * @param x the double to print
      */
     public static void println(final double x) {
@@ -83,7 +83,7 @@ public final class StdOut {
     }
     /**
      * Prints an integer to standard output and then terminates the line.
-     *
+      * Time complexity is O(1).
      * @param x the integer to print
      */
     public static void println(final float x) {
@@ -91,7 +91,7 @@ public final class StdOut {
     }
     /**
      * Prints an integer to standard output and then terminates the line.
-     *
+      * Time complexity is O(1)
      * @param x the integer to print
      */
     public static void println(final int x) {
@@ -99,7 +99,8 @@ public final class StdOut {
     }
     /**
      * Prints a long to standard output and then terminates the line.
-     *
+      * Time complexity is O(1)
+
      * @param x the long to print
      */
     public static void println(final long x) {
@@ -117,7 +118,7 @@ public final class StdOut {
      * Prints a byte to standard output and then terminates the line.
      * <p>
      * To write binary data, see {@link BinaryStdOut}.
-     *
+      * Time complexity is O(1)
      * @param x the byte to print
      */
     public static void println(final byte x) {

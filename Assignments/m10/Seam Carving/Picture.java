@@ -44,7 +44,7 @@ public final class Picture implements ActionListener {
     private final int width, height;
     /**
      * Creates a picture, with columns and rows, where each pixel is black.
-     *
+     *  Time complexity is height * width.
      * @param      width1   the width of the picture
      * @param      height1  the height of the picture
      */
@@ -76,7 +76,7 @@ public final class Picture implements ActionListener {
     }
     /**
      * Creates a picture by reading an image from a file or URL.
-     *
+     *  Time complexity is height * width.
      * @param      filename1  the name of the file (.png, .gif, or .jpg) or URL.
      * @throws     IllegalArgumentException  if cannot read image
      * @throws     IllegalArgumentException  if {@code filename} is {@code null}
@@ -191,7 +191,7 @@ public final class Picture implements ActionListener {
     }
     /**
      * Returns the height of the picture.
-     *
+      * Time complexity is O(1).
      * @return the height of the picture (in pixels)
      */
     public int height() {
@@ -199,7 +199,7 @@ public final class Picture implements ActionListener {
     }
     /**
      * Returns the width of the picture.
-     *
+      * Time complexity is O(1).
      * @return the width of the picture (in pixels)
      */
     public int width() {
@@ -207,7 +207,7 @@ public final class Picture implements ActionListener {
     }
     /**
      * validateRowIndex.
-     *
+      * Time complexity is O(1).
      * @param      row   The row
      */
     private void validateRowIndex(final int row) {
@@ -219,7 +219,7 @@ public final class Picture implements ActionListener {
     }
     /**
      * validateColumnIndex.
-     *
+      * Time complexity is O(1).
      * @param      col   The col
      */
     private void validateColumnIndex(final int col) {
@@ -280,7 +280,7 @@ public final class Picture implements ActionListener {
     }
     /**
      * Sets the color of pixel ({@code col}, {@code row}) to given color.
-     *
+      * Time complexity is O(1).
      * @param col the column index
      * @param row the row index
      * @param rgb the integer representation of the color
@@ -296,7 +296,7 @@ public final class Picture implements ActionListener {
     }
     /**
      * Returns true if this picture is equal to the argument picture.
-     *
+      * Time complexity is O(1).
      * @param other the other picture
      * @return boolean value.
      */
@@ -331,7 +331,7 @@ public final class Picture implements ActionListener {
      * The result is a width by height matrix of pixels,
      * where the color of a pixel is represented using 6 hex digits to encode
      * the red, green, and blue components.
-     *
+      * Time complexity is O(1).
      * @return a string representation of this picture
      */
     public String toString() {
@@ -355,7 +355,7 @@ public final class Picture implements ActionListener {
     }
     /**
      * This operation is not supported because pictures are mutable.
-     *
+      * Time complexity is O(1).
      * @return does not return a value
      * @throws UnsupportedOperationException if called
      */
@@ -366,7 +366,7 @@ public final class Picture implements ActionListener {
     /**
      * Saves the picture to a file in either PNG or JPEG format.
      * The filetype extension must be either .png or .jpg.
-     *
+      * Time complexity is O(1).
      * @param name the name of the file
      * @throws IllegalArgumentException if {@code name} is {@code null}
      */
@@ -379,7 +379,7 @@ public final class Picture implements ActionListener {
     }
     /**
      * Saves the picture to a file in a PNG or JPEG image format.
-     *
+      * Time complexity is O(1)
      * @param  file the file
      * @throws IllegalArgumentException if {@code file} is {@code null}
      */
@@ -404,6 +404,7 @@ public final class Picture implements ActionListener {
         }
     }
     /**
+      * Time complexity is O(1).
      * Opens a save dialog box when the user selects "Save As" from the menu.
      */
     @Override

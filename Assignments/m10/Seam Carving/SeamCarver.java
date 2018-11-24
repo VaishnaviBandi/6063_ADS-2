@@ -17,7 +17,7 @@ public class SeamCarver {
     private int height;
     /**
      *the constructor to initialize.
-     *
+      * Time complexity is O(1).
      * @param      pic   The picture
      */
     public SeamCarver(final Picture pic) {
@@ -28,6 +28,7 @@ public class SeamCarver {
     /**
      *the method will return the picture.
      *object.
+      * Time complexity is O(1).
      * @return picture object.
      */
     public Picture picture() {
@@ -36,6 +37,8 @@ public class SeamCarver {
     /**.
      *this method will return the width.
      *of image.
+     *      * Time complexity is O(1)
+
      * @return width of pixel
      */
     public int width() {
@@ -43,7 +46,7 @@ public class SeamCarver {
     }
     /**
      *height of current picture.
-     *
+      * Time complexity is O(1).
      * @return height of image.
      */
     public int height() {
@@ -51,10 +54,10 @@ public class SeamCarver {
     }
     /**
      *energy of pixel at column x and row y.
-     *
+     * Time complexity is O(1)
      * @param      x  x coordinate
      * @param      y   y coordinate
-     *
+      * Time complexity is O(1).
      * @return energy of pixel.
      */
     public double energy(final int x, final int y) {
